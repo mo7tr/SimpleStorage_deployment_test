@@ -126,8 +126,8 @@ class App extends Component {
         </div>
         <br />
         <p>
-          Here is the addresses that interacted with the contract, and the value
-          they put
+          Here are the addresses that interacted with the contract, and the
+          value they put
         </p>
         <table>
           {this.state.addresses.map((addresse, i) => (
